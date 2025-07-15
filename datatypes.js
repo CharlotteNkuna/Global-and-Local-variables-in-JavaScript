@@ -53,13 +53,11 @@ function numbers() {
 
 
 //Character/ char
-let nam = 'C';
-intitals ()
+let id = Symbol("id");
+intitals()
 
 function intitals() {
-    sur = 'N';
-
-    console.log(typeof nam + '- ' + 'Name first letter is' + nam + ' Surname first letter is ' + sur)
+    console.log(typeof id + "- @ ");
 }
 
 
