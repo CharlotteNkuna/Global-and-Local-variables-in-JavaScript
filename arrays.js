@@ -7,10 +7,15 @@ courses.push("Typescript");
 //unshift; add element at the begining of an array
 courses.unshift("NodeJs");
 
+//pop method: removes elements at the end of an array
+courses.pop("React");
+//unshift method: removes elements at the begining of array
+courses.unshift("Html");
+
 console.log(`The total number in an array is ${total}`);
 
 
-
+ 
 //to show the elements inside an array
 console.log(`The elements inside an array are: ${courses}`);
 
